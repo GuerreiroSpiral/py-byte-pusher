@@ -13,5 +13,10 @@ The app only implements Video and CPU operations.
   <img src="https://i.imgur.com/Td722tW.png">
   <img src="https://i.imgur.com/nV7RK7W.png">
   <img src="https://i.imgur.com/VnguOmg.png">
+  <img src="https://i.imgur.com/5fBL7fb.jpg">
 </p>
+
+# Perfomance
+It is SLOW. It takes about 7-8 seconds for it to render an entire frame using Pygame.
+This is probably due to Python/Pygame, or my implementation is faulty.
 
