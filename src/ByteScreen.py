@@ -1,4 +1,5 @@
 import pygame
+from constants import SCREEN_HEIGHT, SCREEN_WIDTH, DISPLAY_HEIGHT
 from pygame import gfxdraw
 from pygame import freetype
 
@@ -9,7 +10,7 @@ class ByteScreen:
     def __init__(self):
         pygame.init()
         pygame.display.set_caption("Python Byte Pusher")
-        self._screen = pygame.display.set_mode((256, 312))
+        self._screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
         self._screen_surface = pygame.display.get_surface()
         self._color_palette = [pygame.Color(0, 0, 0)] * 256
         self.font = freetype.Font("../font/8BITWONDER.TTF", 10)
@@ -17,7 +18,7 @@ class ByteScreen:
     
     def blit_text(self, text, pos):
         # Clears the debug area
-        self._screen_surface.fill((0, 0, 0), (0, 257, 256, 312))
+        self._screen_surface.fill((0, 0, 0), (0, DISPLAY_HEIGHT-1, SCREEN_WIDTH, SCREEN_HEIGHT))
         # Render the text
         self.font.render_to(self._screen_surface, pos, text, (255, 255, 255))
         # Update only the text area
@@ -39,8 +40,8 @@ class ByteScreen:
                     index += 1
 
     def render_frame(self, frame_data):
-        for y in range(256):
-            for x in range(256):
+        for y in range(DISPLAY_HEIGHT):
+            for x in range(SCREEN_WIDTH):
                 gfxdraw.pixel(self._screen_surface, x, y,
                               self._color_palette[frame_data[(y * 256) + x]])
                 pygame.display.update()

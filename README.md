@@ -10,10 +10,8 @@ The app only implements Video and CPU operations.
 
 # Screenshots:
 <p align="center">
-  <img src="https://i.imgur.com/Td722tW.png">
-  <img src="https://i.imgur.com/nV7RK7W.png">
-  <img src="https://i.imgur.com/VnguOmg.png">
   <img src="https://i.imgur.com/5fBL7fb.jpg">
+  <img src="https://i.imgur.com/alU2wA1.jpg">
 </p>
 
 # Perfomance
