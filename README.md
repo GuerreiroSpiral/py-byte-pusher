@@ -18,5 +18,5 @@ The app only implements Video and CPU operations.
 
 # Perfomance
 It is SLOW. It takes about 7-8 seconds for it to render an entire frame using Pygame.
-This is probably due to Python/Pygame, or my implementation is faulty.
+This is probably due to both Python and the configuration of my laptop, as most of the time is spent in the CPU step loop.
 
