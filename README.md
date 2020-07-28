@@ -1,5 +1,5 @@
 # py-byte-pusher
-- An implementation of the [BytePusher](https://esolangs.org/wiki/BytePusher) Virtual Machine made in Python. It was my first attempt at something like this but I was able to find some good examples in the internet. Thankfully, I didn't need to only paste the code (at least not TOO much). But still, it was a nice little exercise. Might try my luck with a Chip-8 implementation after this.
+- An implementation of the [BytePusher](https://esolangs.org/wiki/BytePusher) Virtual Machine made in Python. It was my first attempt at something like this but I was able to find some good examples in the internet.
 The app only implements Video and CPU operations.
 
 # Tested ROMs:
