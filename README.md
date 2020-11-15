@@ -6,7 +6,7 @@ The app only implements Video and CPU operations.
 - nyan.bp: works perfectly.
 - palettetest: works perfectly.
 - scrollinglogo: boots and shows graphics, but is extremely slow.
-- Sprites.c: throws memory allocation error.
+- Sprites.c: throws memory allocation error. (NOTE: I was being stupid by loading the .c file instead of the binary file into the emulator.)
 
 # Screenshots:
 <p align="center">
