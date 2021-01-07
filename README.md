@@ -3,10 +3,10 @@
 The app only implements Video and CPU operations.
 
 # Tested ROMs:
-- nyan.bp: works perfectly.
-- palettetest: works perfectly.
-- scrollinglogo: boots and shows graphics, but is extremely slow.
-- Sprites.c: throws memory allocation error. (NOTE: I was being stupid by loading the .c file instead of the binary file into the emulator.)
+| ROM  | Status  |
+| ------------------- | ------------------- |
+|  nyan.bp |  Works 100% |
+|  palettetest |  Works 100% |
 
 # Screenshots:
 <p align="center">
